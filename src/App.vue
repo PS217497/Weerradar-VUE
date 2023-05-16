@@ -90,12 +90,7 @@ export default {
             })
     }
 }
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
 
-gtag('config', 'G-ED9EXLQ1QK');
 </script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ED9EXLQ1QK"></script>
 <style>
 </style>
