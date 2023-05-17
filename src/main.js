@@ -7,6 +7,6 @@ import '@/styles/app.css'
 import './registerServiceWorker'
 import VueGtag from "vue-gtag"
 
-createApp(App).use(VueGtag, {
+createApp(App).use(VueAxios, axios, VueGtag, {
     config: { id: "G-ED9EXLQ1QK" }
-}).use(VueAxios, axios).mount('#app')
+}).mount('#app')

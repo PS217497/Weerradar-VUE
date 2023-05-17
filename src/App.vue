@@ -68,6 +68,9 @@ export default {
         }
     },
     methods: {
+        login () {
+            this.$gtag.event('login', { method: 'Google' })
+        },
         selecteer(selectedregion) {
             this.toon(selectedregion.target.selectedIndex)
         },
